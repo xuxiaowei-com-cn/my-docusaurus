@@ -28,3 +28,11 @@ updates:
       - dependency-name: react
         versions:
           - "> 17"
+      # @mdx-js/react ^2.0.0 无法打包
+      - dependency-name: @mdx-js/react
+        versions:
+          - ">= 2"
+      # prism-react-renderer ^2.0.0 无法打包
+      - dependency-name: prism-react-renderer
+        versions:
+          - ">= 2"

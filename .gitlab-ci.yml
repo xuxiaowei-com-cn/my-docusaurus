@@ -8,7 +8,7 @@ build:
     paths:
       - node_modules/
   script:
-    - npm install
+    - npm run pre
     - npm run build
   artifacts:
     paths:
